@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Nanakusa Nazuna — Nazuna Nanakusa. Yofukashi no Uta, Call of the Night. A shepherd's purse sprig drawn as a botanical specimen beside an empty night street with a lit vending machine and a crescent moon.">
+<title>七草 ナズナ ・ よふかしのうた</title>
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0B0A10"/><stop offset="62%" stop-color="#0F0D1A"/><stop offset="100%" stop-color="#141126"/></linearGradient>
+<radialGradient id="lamp" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#F2C14E" stop-opacity="0.30"/><stop offset="55%" stop-color="#F2C14E" stop-opacity="0.09"/><stop offset="100%" stop-color="#F2C14E" stop-opacity="0"/></radialGradient>
+<linearGradient id="rf" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#6F5FA8" stop-opacity="0.85"/><stop offset="100%" stop-color="#6F5FA8" stop-opacity="0.05"/></linearGradient>
+<mask id="moon"><circle cx="1108" cy="64" r="22" fill="#fff"/><circle cx="1120" cy="64" r="25" fill="#000"/></mask>
+<g id="pod"><path d="M0 0 L9 -5.6 L6.2 0 L9 5.6 Z"/></g>
+<style>
+.jp{font-family:"Yu Mincho","Hiragino Mincho ProN","Noto Serif JP","MS Mincho",serif}
+.nm{font-family:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-weight:600;fill:#EDEAF2}
+.en{font-family:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;fill:#9A93AE}
+
+/* Nothing moves quickly. The street breathes, the plant sways, a light hums. */
+@keyframes hum   { 0%,100%{opacity:.86} 50%{opacity:1} }
+@keyframes sway  { 0%,100%{transform:rotate(-0.9deg)} 50%{transform:rotate(0.9deg)} }
+@keyframes bloom { 0%,100%{opacity:.55} 50%{opacity:1} }
+
+.lamp   { animation: hum 7s ease-in-out infinite; }
+.screen { animation: hum 7s ease-in-out infinite; animation-delay:-1.4s; }
+.sprig  { animation: sway 11s ease-in-out infinite;
+          transform-box: fill-box; transform-origin: 50% 100%; }
+.petal  { animation: bloom 6s ease-in-out infinite; }
+.petal:nth-of-type(2){ animation-delay:-1.5s }
+.petal:nth-of-type(3){ animation-delay:-3s }
+.petal:nth-of-type(4){ animation-delay:-4.5s }
+
+@media (prefers-reduced-motion: reduce){
+  .lamp,.screen,.sprig,.petal{ animation:none }
+}
+</style>
+</defs>
+
+<rect width="1200" height="300" fill="url(#sky)"/>
+
+<g stroke="#2A2340" stroke-width="3" fill="none">
+<line x1="700" y1="248" x2="1160" y2="248"/>
+<line x1="830" y1="30" x2="830" y2="248"/>
+<line x1="806" y1="64" x2="854" y2="64"/>
+<line x1="812" y1="88" x2="848" y2="88"/>
+</g>
+
+<circle cx="1108" cy="64" r="22" fill="#B9A7E8" opacity="0.85" mask="url(#moon)"/>
+
+<ellipse class="lamp" cx="1022" cy="200" rx="104" ry="86" fill="url(#lamp)"/>
+<g shape-rendering="crispEdges">
+<rect x="980" y="150" width="84" height="98" fill="#211C36"/>
+<rect x="980" y="150" width="84" height="6" fill="#2F2850"/>
+<rect class="screen" x="986" y="160" width="56" height="58" fill="#F2C14E" opacity="0.16"/>
+<rect class="screen" x="986" y="160" width="56" height="6" fill="#F2C14E" opacity="0.42"/>
+<rect x="990" y="170" width="10" height="14" fill="#C25E8C" opacity="0.85"/>
+<rect x="1006" y="170" width="10" height="14" fill="#B9A7E8" opacity="0.70"/>
+<rect x="1022" y="170" width="10" height="14" fill="#C25E8C" opacity="0.55"/>
+<rect x="990" y="192" width="10" height="14" fill="#B9A7E8" opacity="0.55"/>
+<rect x="1006" y="192" width="10" height="14" fill="#C25E8C" opacity="0.70"/>
+<rect x="1022" y="192" width="10" height="14" fill="#B9A7E8" opacity="0.85"/>
+<rect x="1046" y="160" width="14" height="26" fill="#0B0A10"/>
+<rect x="986" y="224" width="56" height="10" fill="#0B0A10"/>
+<rect x="980" y="248" width="84" height="4" fill="#F2C14E" opacity="0.18"/>
+<rect x="996" y="254" width="52" height="3" fill="#F2C14E" opacity="0.10"/>
+<rect x="1078" y="238" width="7" height="10" fill="#C25E8C" opacity="0.75"/>
+<rect x="1078" y="236" width="7" height="2" fill="#E0A0BE" opacity="0.8"/>
+</g>
+
+<g class="sprig">
+<g stroke="#6F5FA8" stroke-width="1.3" fill="none" stroke-linecap="round">
+<path d="M 104 254 C 100 206 110 146 96 58"/>
+<line x1="102" y1="228" x2="116" y2="222"/>
+<line x1="103" y1="204" x2="88" y2="198"/>
+<line x1="104" y1="180" x2="119" y2="175"/>
+<line x1="103" y1="156" x2="88" y2="151"/>
+<line x1="101" y1="132" x2="115" y2="127"/>
+<line x1="99" y1="110" x2="85" y2="105"/>
+<line x1="97" y1="90" x2="110" y2="85"/>
+<path d="M 104 254 C 88 250 78 242 74 232"/>
+<path d="M 104 254 C 120 251 130 244 135 235"/>
+<path d="M 104 254 C 92 258 82 258 72 254"/>
+</g>
+<g fill="#8878C4">
+<use href="#pod" transform="translate(116,222) rotate(-22)"/>
+<use href="#pod" transform="translate(88,198) rotate(158)"/>
+<use href="#pod" transform="translate(119,175) rotate(-18)"/>
+<use href="#pod" transform="translate(88,151) rotate(162)"/>
+<use href="#pod" transform="translate(115,127) rotate(-20)"/>
+<use href="#pod" transform="translate(85,105) rotate(160)"/>
+<use href="#pod" transform="translate(110,85) rotate(-20)"/>
+</g>
+<g fill="#C9BCEB">
+<circle class="petal" cx="98" cy="54" r="2.2"/>
+<circle class="petal" cx="92" cy="48" r="2"/>
+<circle class="petal" cx="103" cy="47" r="1.9"/>
+<circle class="petal" cx="96" cy="41" r="1.7"/>
+<circle cx="88" cy="55" r="1.6"/>
+</g>
+</g>
+
+<text class="jp" x="196" y="102" font-size="18" letter-spacing="8" fill="#B9A7E8" opacity="0.92">七草 ナズナ</text>
+<text class="nm" x="194" y="152" font-size="42" letter-spacing="1.5">Nazuna Nanakusa</text>
+<line x1="196" y1="172" x2="640" y2="172" stroke="url(#rf)" stroke-width="1"/>
+<text class="jp" x="197" y="202" font-size="19" letter-spacing="6" fill="#B9A7E8" opacity="0.84">よふかしのうた</text>
+<text class="en" x="198" y="228" font-size="12.5" letter-spacing="4.6">CALL OF THE NIGHT</text>
+
+<rect x="1124" y="252" width="30" height="30" rx="3" fill="none" stroke="#C25E8C" stroke-width="1.4" opacity="0.55"/>
+<text class="jp" x="1139" y="274" font-size="19" text-anchor="middle" fill="#C25E8C" opacity="0.62">夜</text>
+</svg>

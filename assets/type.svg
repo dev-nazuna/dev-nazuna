@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 52" width="450" height="52" role="img" aria-label="i build websites, apps and systems">
+<title>i build websites, apps and systems</title>
+<defs>
+<clipPath id="rev"><rect class="rv" x="0" y="0" width="0" height="52"/></clipPath>
+<style>
+.t{ font-family:"SFMono-Regular","Cascadia Mono",Consolas,"Liberation Mono",monospace;
+    font-size:20px; fill:#463A6B }
+.c{ fill:#6F4FC0 }
+@media (prefers-color-scheme: dark){ .t{ fill:#E4DFF0 } .c{ fill:#B9A7E8 } }
+
+/* canvas is sized to the string, so the image centres as a block and the
+   text centres with it. 34 glyphs at ~12.3px = 418px pinned by textLength;
+   canvas is 16 + 418 + 16. a different string needs textLength, the canvas
+   width, both keyframe end values and steps() all retuned together. */
+@keyframes type  { 0%{width:14px} 48%{width:436px} 93%{width:436px} 100%{width:14px} }
+@keyframes ride  { 0%{x:16px}     48%{x:436px}     93%{x:436px}     100%{x:16px} }
+@keyframes blink { 0%,48%{opacity:1} 49%,100%{opacity:0} }
+
+.rv{ animation: type 10s steps(34,end) infinite }
+.cr{ animation: ride 10s steps(34,end) infinite, blink 1.1s steps(1,end) infinite }
+
+@media (prefers-reduced-motion: reduce){
+  .rv{ width:436px; animation:none }
+  .cr{ x:436px; animation:none; opacity:.75 }
+}
+</style>
+</defs>
+
+<text class="t" x="16" y="34" textLength="418" lengthAdjust="spacing"
+      clip-path="url(#rev)">i build websites, apps and systems</text>
+<rect class="cr c" x="16" y="16" width="2" height="23" rx="1"/>
+</svg>
