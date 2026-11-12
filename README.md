@@ -2,7 +2,7 @@
 
 <img src="assets/banner.svg" width="100%" alt="Nanakusa Nazuna — Nazuna Nanakusa. Yofukashi no Uta, Call of the Night. A shepherd's purse sprig drawn as a botanical specimen beside an empty night street with a lit vending machine and a crescent moon." />
 
-<img src="assets/type.svg?v=6" width="68%" alt="i build websites, apps and games" />
+<img src="assets/type.svg?v=7" width="39%" alt="call of the night" />
 
 <img src="assets/divider.svg?v=4" width="100%" alt="" />
 
@@ -10,9 +10,9 @@
 
 <sub>
 
-designer & developer for web and games.
+web & game development & design
 
-part-time vampire.
+part-time vampire
 
 </sub>
 
@@ -60,10 +60,10 @@ part-time vampire.
        rule fading out at the middle, moon centred, four stars either side —
        so it only reads correctly in a centred column.
 
-     · type.svg's canvas is sized to its string (425x52 for 32 glyphs at
-       textLength 393). that is what makes it centre. a wide canvas with the
+     · type.svg's canvas is sized to its string (241x52 for 17 glyphs at
+       textLength 209). that is what makes it centre. a wide canvas with the
        text at x=16 renders left-of-centre no matter what the markdown says.
-       it is shown at 68% so the letters stay the size they were at 34 glyphs.
+       it is shown at 39% so the letters stay the size they were at 34 glyphs.
        change the string and textLength, the canvas width, both keyframe end
        values and steps() all have to move together.
 
