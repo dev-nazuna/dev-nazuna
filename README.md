@@ -10,7 +10,7 @@
 
 <sub>
 
-web & game development & design
+design & development for web and games
 
 part-time vampire
 
